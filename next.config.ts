@@ -7,12 +7,12 @@ const nextConfig = {
         remotePatterns: [
             {
                 protocol: 'https',
-                hostname: 'gabymarco.s3.us-east-1.amazonaws.com',
+                hostname: 'gabymarco.s3.amazonaws.com',
                 port: '',
                 pathname: '/**',
             },
         ],
     },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
