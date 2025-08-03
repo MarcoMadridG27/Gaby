@@ -148,7 +148,7 @@ export default function Home() {
                         },
                         {
                             icon: <Github className="h-5 w-5" />,
-                            href: "https://github.com/tu_usuario",
+                            href: "https://github.com/MarcoMadridG27/Gaby",
                             label: "GitHub",
                         },
                     ]}
