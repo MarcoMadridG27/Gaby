@@ -1,4 +1,11 @@
-export async function listarFotos(folder: string): Promise<string[]> {
+// Primero, define el tipo correcto
+type Foto = {
+    url: string;
+    key: string;
+};
+
+// Corrige la función listarFotos
+export async function listarFotos(folder: string): Promise<Foto[]> {
     const response = await fetch(
         `https://vj6d9cy5bd.execute-api.us-east-1.amazonaws.com/default/listarFotosS3?folder=${encodeURIComponent(folder)}`
     );
@@ -8,5 +15,5 @@ export async function listarFotos(folder: string): Promise<string[]> {
     }
 
     const data = await response.json();
-    return data.fotos; // asegúrate que tu Lambda retorna { fotos: [...] }
+    return data.fotos; // Ya vienen como objetos {url, key}
 }

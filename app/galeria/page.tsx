@@ -53,7 +53,7 @@ export default function GaleriaPage() {
             for (const viaje of viajes) {
                 try {
                     const fotos = await listarFotos(viaje.carpeta);
-                    fotosData[viaje.carpeta] = fotos.map((f) => f.url);
+                    fotosData[viaje.carpeta] = fotos.map((f) => f.url); // ✅ Vuelve a usar .url
                 } catch (error) {
                     console.error("Error al cargar fotos de", viaje.carpeta, error);
                     fotosData[viaje.carpeta] = [];
