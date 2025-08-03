@@ -40,7 +40,6 @@ export const ImagesSlider = ({
         loadImages();
     }, [images]);
 
-
     const loadImages = () => {
         setLoading(true);
         const loadPromises = images.map((image) => {
@@ -59,6 +58,7 @@ export const ImagesSlider = ({
             })
             .catch((error) => console.error("Failed to load images", error));
     };
+
     useEffect(() => {
         const handleKeyDown = (event: KeyboardEvent) => {
             if (event.key === "ArrowRight") handleNext();
@@ -67,7 +67,7 @@ export const ImagesSlider = ({
 
         window.addEventListener("keydown", handleKeyDown);
 
-        let interval: any;
+        let interval: NodeJS.Timeout;
         if (autoplay && images.length > 1) {
             interval = setInterval(() => {
                 handleNext();
@@ -76,10 +76,9 @@ export const ImagesSlider = ({
 
         return () => {
             window.removeEventListener("keydown", handleKeyDown);
-            clearInterval(interval);
+            if (interval) clearInterval(interval);
         };
-    }, [autoplay, images.length]); // ✅ importante
-
+    }, [autoplay, images.length]);
 
     const slideVariants = {
         initial: {
@@ -91,24 +90,14 @@ export const ImagesSlider = ({
             scale: 1,
             rotateX: 0,
             opacity: 1,
-            transition: {
-                duration: 0.5,
-                ease: [0.645, 0.045, 0.355, 1.0],
-            },
         },
         upExit: {
             opacity: 1,
             y: "-150%",
-            transition: {
-                duration: 1,
-            },
         },
         downExit: {
             opacity: 1,
             y: "150%",
-            transition: {
-                duration: 1,
-            },
         },
     };
 
@@ -140,6 +129,10 @@ export const ImagesSlider = ({
                         animate="visible"
                         exit={direction === "up" ? "upExit" : "downExit"}
                         variants={slideVariants}
+                        transition={{
+                            duration: 0.5,
+                            ease: [0.645, 0.045, 0.355, 1.0],
+                        }}
                         className="image h-full w-full absolute inset-0 object-cover object-center"
                     />
                 </AnimatePresence>
