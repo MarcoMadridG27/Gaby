@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "nombre": "Torta de Chocolate",
+    "descripcion": "Deliciosa torta con cobertura de fudge.",
+    "precio": 35,
+    "imagen": "/images/torta-chocolate.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Dona Glaseada",
+    "descripcion": "Clásica dona con glaseado de vainilla.",
+    "precio": 5,
+    "imagen": "/images/dona-glaseada.jpg"
+  }
+]

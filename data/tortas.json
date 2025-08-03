@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "nombre": "Torta de Chocolate",
+    "descripcion": "Bizcocho húmedo con ganache de chocolate.",
+    "imagen": "/tortas/chocolate.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Torta de Fresa",
+    "descripcion": "Rellena de crema y fresas frescas.",
+    "imagen": "/tortas/fresa.jpg"
+  }
+]

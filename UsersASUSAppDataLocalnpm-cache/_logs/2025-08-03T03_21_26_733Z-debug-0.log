@@ -1,0 +1,820 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\ASUS\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.2.0
+2 info using node@v20.17.0
+3 silly config load:file:C:\Users\ASUS\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\ASUS\rouss\.npmrc
+5 silly config load:file:C:\Users\ASUS\.npmrc
+6 silly config load:file:C:\Users\ASUS\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm i @tsparticles/react @tsparticles/engine @tsparticles/slim
+8 verbose argv "i" "@tsparticles/react" "@tsparticles/engine" "@tsparticles/slim"
+9 verbose logfile logs-max:10 dir:C:\Users\ASUS\rouss\UsersASUSAppDataLocalnpm-cache\_logs\2025-08-03T03_21_26_733Z-
+10 verbose logfile C:\Users\ASUS\rouss\UsersASUSAppDataLocalnpm-cache\_logs\2025-08-03T03_21_26_733Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest @tsparticles/react@*
+16 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2freact cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2freact 2191ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2freact set size:undefined disposed:false
+19 silly fetch manifest @tsparticles/engine@*
+20 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fengine cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fengine 1642ms (cache miss)
+22 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fengine set size:undefined disposed:false
+23 silly fetch manifest react@^19.1.0
+24 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/react 812ms (cache updated)
+26 silly packumentCache full:https://registry.npmjs.org/react set size:undefined disposed:false
+27 silly fetch manifest react-dom@^19.1.0
+28 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+29 http fetch GET 200 https://registry.npmjs.org/react-dom 199ms (cache revalidated)
+30 silly packumentCache full:https://registry.npmjs.org/react-dom set size:7600525 disposed:false
+31 silly fetch manifest @tsparticles/slim@*
+32 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fslim cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fslim 1677ms (cache miss)
+34 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fslim set size:undefined disposed:false
+35 silly placeDep ROOT @tsparticles/engine@3.9.0 OK for: my-app@0.1.0 want: *
+36 silly placeDep ROOT @tsparticles/react@3.0.0 OK for: my-app@0.1.0 want: *
+37 silly placeDep ROOT @tsparticles/slim@3.9.0 OK for: my-app@0.1.0 want: *
+38 silly fetch manifest @tsparticles/basic@3.9.0
+39 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fbasic cache-miss
+40 silly fetch manifest @tsparticles/interaction-external-attract@3.9.0
+41 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2finteraction-external-attract cache-miss
+42 silly fetch manifest @tsparticles/interaction-external-bounce@3.9.0
+43 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2finteraction-external-bounce cache-miss
+44 silly fetch manifest @tsparticles/interaction-external-bubble@3.9.0
+45 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2finteraction-external-bubble cache-miss
+46 silly fetch manifest @tsparticles/interaction-external-connect@3.9.0
+47 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2finteraction-external-connect cache-miss
+48 silly fetch manifest @tsparticles/interaction-external-grab@3.9.0
+49 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2finteraction-external-grab cache-miss
+50 silly fetch manifest @tsparticles/interaction-external-pause@3.9.0
+51 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2finteraction-external-pause cache-miss
+52 silly fetch manifest @tsparticles/interaction-external-push@3.9.0
+53 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2finteraction-external-push cache-miss
+54 silly fetch manifest @tsparticles/interaction-external-remove@3.9.0
+55 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2finteraction-external-remove cache-miss
+56 silly fetch manifest @tsparticles/interaction-external-repulse@3.9.0
+57 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2finteraction-external-repulse cache-miss
+58 silly fetch manifest @tsparticles/interaction-external-slow@3.9.0
+59 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2finteraction-external-slow cache-miss
+60 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fbasic 363ms (cache miss)
+61 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fbasic set size:undefined disposed:false
+62 silly fetch manifest @tsparticles/interaction-particles-attract@3.9.0
+63 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2finteraction-particles-attract cache-miss
+64 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2finteraction-external-push 1298ms (cache miss)
+65 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2finteraction-external-push set size:undefined disposed:false
+66 silly fetch manifest @tsparticles/interaction-particles-collisions@3.9.0
+67 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2finteraction-particles-collisions cache-miss
+68 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2finteraction-particles-collisions 371ms (cache miss)
+69 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2finteraction-particles-collisions set size:undefined disposed:false
+70 silly fetch manifest @tsparticles/interaction-particles-links@3.9.0
+71 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2finteraction-particles-links cache-miss
+72 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2finteraction-particles-attract 1576ms (cache miss)
+73 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2finteraction-particles-attract set size:undefined disposed:false
+74 silly fetch manifest @tsparticles/move-parallax@3.9.0
+75 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fmove-parallax cache-miss
+76 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2finteraction-external-repulse 1995ms (cache miss)
+77 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2finteraction-external-repulse set size:undefined disposed:false
+78 silly fetch manifest @tsparticles/plugin-easing-quad@3.9.0
+79 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fplugin-easing-quad cache-miss
+80 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2finteraction-external-bounce 2008ms (cache miss)
+81 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2finteraction-external-bounce set size:undefined disposed:false
+82 silly fetch manifest @tsparticles/shape-emoji@3.9.0
+83 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fshape-emoji cache-miss
+84 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2finteraction-external-attract 2054ms (cache miss)
+85 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2finteraction-external-attract set size:undefined disposed:false
+86 silly fetch manifest @tsparticles/shape-image@3.9.0
+87 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fshape-image cache-miss
+88 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2finteraction-external-slow 2057ms (cache miss)
+89 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2finteraction-external-slow set size:undefined disposed:false
+90 silly fetch manifest @tsparticles/shape-line@3.9.0
+91 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fshape-line cache-miss
+92 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2finteraction-external-pause 2063ms (cache miss)
+93 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2finteraction-external-pause set size:undefined disposed:false
+94 silly fetch manifest @tsparticles/shape-polygon@3.9.0
+95 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fshape-polygon cache-miss
+96 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2finteraction-external-remove 2064ms (cache miss)
+97 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2finteraction-external-remove set size:undefined disposed:false
+98 silly fetch manifest @tsparticles/shape-square@3.9.0
+99 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fshape-square cache-miss
+100 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2finteraction-external-bubble 2073ms (cache miss)
+101 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2finteraction-external-bubble set size:undefined disposed:false
+102 silly fetch manifest @tsparticles/shape-star@3.9.0
+103 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fshape-star cache-miss
+104 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2finteraction-external-connect 2104ms (cache miss)
+105 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2finteraction-external-connect set size:undefined disposed:false
+106 silly fetch manifest @tsparticles/updater-life@3.9.0
+107 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fupdater-life cache-miss
+108 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2finteraction-external-grab 2147ms (cache miss)
+109 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2finteraction-external-grab set size:undefined disposed:false
+110 silly fetch manifest @tsparticles/updater-rotate@3.9.0
+111 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fupdater-rotate cache-miss
+112 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fplugin-easing-quad 342ms (cache miss)
+113 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fplugin-easing-quad set size:undefined disposed:false
+114 silly fetch manifest @tsparticles/updater-stroke-color@3.9.0
+115 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fupdater-stroke-color cache-miss
+116 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fmove-parallax 1180ms (cache miss)
+117 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fmove-parallax set size:undefined disposed:false
+118 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fshape-emoji 1168ms (cache miss)
+119 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fshape-emoji set size:undefined disposed:false
+120 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2finteraction-particles-links 1688ms (cache miss)
+121 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2finteraction-particles-links set size:undefined disposed:false
+122 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fshape-square 1455ms (cache miss)
+123 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fshape-square set size:undefined disposed:false
+124 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fshape-polygon 1590ms (cache miss)
+125 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fshape-polygon set size:undefined disposed:false
+126 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fshape-star 1690ms (cache miss)
+127 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fshape-star set size:undefined disposed:false
+128 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fshape-image 1709ms (cache miss)
+129 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fshape-image set size:undefined disposed:false
+130 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fupdater-rotate 1618ms (cache miss)
+131 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fupdater-rotate set size:undefined disposed:false
+132 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fshape-line 1707ms (cache miss)
+133 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fshape-line set size:undefined disposed:false
+134 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fupdater-life 1665ms (cache miss)
+135 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fupdater-life set size:undefined disposed:false
+136 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fupdater-stroke-color 1655ms (cache miss)
+137 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fupdater-stroke-color set size:undefined disposed:false
+138 silly placeDep ROOT @tsparticles/basic@3.9.0 OK for: @tsparticles/slim@3.9.0 want: 3.9.0
+139 silly placeDep ROOT @tsparticles/interaction-external-attract@3.9.0 OK for: @tsparticles/slim@3.9.0 want: 3.9.0
+140 silly placeDep ROOT @tsparticles/interaction-external-bounce@3.9.0 OK for: @tsparticles/slim@3.9.0 want: 3.9.0
+141 silly placeDep ROOT @tsparticles/interaction-external-bubble@3.9.0 OK for: @tsparticles/slim@3.9.0 want: 3.9.0
+142 silly placeDep ROOT @tsparticles/interaction-external-connect@3.9.0 OK for: @tsparticles/slim@3.9.0 want: 3.9.0
+143 silly placeDep ROOT @tsparticles/interaction-external-grab@3.9.0 OK for: @tsparticles/slim@3.9.0 want: 3.9.0
+144 silly placeDep ROOT @tsparticles/interaction-external-pause@3.9.0 OK for: @tsparticles/slim@3.9.0 want: 3.9.0
+145 silly placeDep ROOT @tsparticles/interaction-external-push@3.9.0 OK for: @tsparticles/slim@3.9.0 want: 3.9.0
+146 silly placeDep ROOT @tsparticles/interaction-external-remove@3.9.0 OK for: @tsparticles/slim@3.9.0 want: 3.9.0
+147 silly placeDep ROOT @tsparticles/interaction-external-repulse@3.9.0 OK for: @tsparticles/slim@3.9.0 want: 3.9.0
+148 silly placeDep ROOT @tsparticles/interaction-external-slow@3.9.0 OK for: @tsparticles/slim@3.9.0 want: 3.9.0
+149 silly placeDep ROOT @tsparticles/interaction-particles-attract@3.9.0 OK for: @tsparticles/slim@3.9.0 want: 3.9.0
+150 silly placeDep ROOT @tsparticles/interaction-particles-collisions@3.9.0 OK for: @tsparticles/slim@3.9.0 want: 3.9.0
+151 silly placeDep ROOT @tsparticles/interaction-particles-links@3.9.0 OK for: @tsparticles/slim@3.9.0 want: 3.9.0
+152 silly placeDep ROOT @tsparticles/move-parallax@3.9.0 OK for: @tsparticles/slim@3.9.0 want: 3.9.0
+153 silly placeDep ROOT @tsparticles/plugin-easing-quad@3.9.0 OK for: @tsparticles/slim@3.9.0 want: 3.9.0
+154 silly placeDep ROOT @tsparticles/shape-emoji@3.9.0 OK for: @tsparticles/slim@3.9.0 want: 3.9.0
+155 silly placeDep ROOT @tsparticles/shape-image@3.9.0 OK for: @tsparticles/slim@3.9.0 want: 3.9.0
+156 silly placeDep ROOT @tsparticles/shape-line@3.9.0 OK for: @tsparticles/slim@3.9.0 want: 3.9.0
+157 silly placeDep ROOT @tsparticles/shape-polygon@3.9.0 OK for: @tsparticles/slim@3.9.0 want: 3.9.0
+158 silly placeDep ROOT @tsparticles/shape-square@3.9.0 OK for: @tsparticles/slim@3.9.0 want: 3.9.0
+159 silly placeDep ROOT @tsparticles/shape-star@3.9.0 OK for: @tsparticles/slim@3.9.0 want: 3.9.0
+160 silly placeDep ROOT @tsparticles/updater-life@3.9.0 OK for: @tsparticles/slim@3.9.0 want: 3.9.0
+161 silly placeDep ROOT @tsparticles/updater-rotate@3.9.0 OK for: @tsparticles/slim@3.9.0 want: 3.9.0
+162 silly placeDep ROOT @tsparticles/updater-stroke-color@3.9.0 OK for: @tsparticles/slim@3.9.0 want: 3.9.0
+163 silly fetch manifest @tsparticles/move-base@3.9.0
+164 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fmove-base cache-miss
+165 silly fetch manifest @tsparticles/plugin-hex-color@3.9.0
+166 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fplugin-hex-color cache-miss
+167 silly fetch manifest @tsparticles/plugin-hsl-color@3.9.0
+168 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fplugin-hsl-color cache-miss
+169 silly fetch manifest @tsparticles/plugin-rgb-color@3.9.0
+170 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fplugin-rgb-color cache-miss
+171 silly fetch manifest @tsparticles/shape-circle@3.9.0
+172 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fshape-circle cache-miss
+173 silly fetch manifest @tsparticles/updater-color@3.9.0
+174 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fupdater-color cache-miss
+175 silly fetch manifest @tsparticles/updater-opacity@3.9.0
+176 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fupdater-opacity cache-miss
+177 silly fetch manifest @tsparticles/updater-out-modes@3.9.0
+178 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fupdater-out-modes cache-miss
+179 silly fetch manifest @tsparticles/updater-size@3.9.0
+180 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fupdater-size cache-miss
+181 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fmove-base 1196ms (cache miss)
+182 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fmove-base set size:undefined disposed:false
+183 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fshape-circle 1195ms (cache miss)
+184 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fshape-circle set size:undefined disposed:false
+185 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fupdater-color 1197ms (cache miss)
+186 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fupdater-color set size:undefined disposed:false
+187 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fupdater-size 1570ms (cache miss)
+188 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fupdater-size set size:undefined disposed:false
+189 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fupdater-opacity 1601ms (cache miss)
+190 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fupdater-opacity set size:undefined disposed:false
+191 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fupdater-out-modes 1627ms (cache miss)
+192 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fupdater-out-modes set size:undefined disposed:false
+193 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fplugin-hex-color 1640ms (cache miss)
+194 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fplugin-hex-color set size:undefined disposed:false
+195 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fplugin-rgb-color 1639ms (cache miss)
+196 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fplugin-rgb-color set size:undefined disposed:false
+197 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fplugin-hsl-color 1656ms (cache miss)
+198 silly packumentCache full:https://registry.npmjs.org/@tsparticles%2fplugin-hsl-color set size:undefined disposed:false
+199 silly placeDep ROOT @tsparticles/move-base@3.9.0 OK for: @tsparticles/basic@3.9.0 want: 3.9.0
+200 silly placeDep ROOT @tsparticles/plugin-hex-color@3.9.0 OK for: @tsparticles/basic@3.9.0 want: 3.9.0
+201 silly placeDep ROOT @tsparticles/plugin-hsl-color@3.9.0 OK for: @tsparticles/basic@3.9.0 want: 3.9.0
+202 silly placeDep ROOT @tsparticles/plugin-rgb-color@3.9.0 OK for: @tsparticles/basic@3.9.0 want: 3.9.0
+203 silly placeDep ROOT @tsparticles/shape-circle@3.9.0 OK for: @tsparticles/basic@3.9.0 want: 3.9.0
+204 silly placeDep ROOT @tsparticles/updater-color@3.9.0 OK for: @tsparticles/basic@3.9.0 want: 3.9.0
+205 silly placeDep ROOT @tsparticles/updater-opacity@3.9.0 OK for: @tsparticles/basic@3.9.0 want: 3.9.0
+206 silly placeDep ROOT @tsparticles/updater-out-modes@3.9.0 OK for: @tsparticles/basic@3.9.0 want: 3.9.0
+207 silly placeDep ROOT @tsparticles/updater-size@3.9.0 OK for: @tsparticles/basic@3.9.0 want: 3.9.0
+208 silly reify moves {}
+209 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@tailwindcss\oxide-wasm32-wasi
+210 silly reify mark deleted [
+210 silly reify   'C:\\Users\\ASUS\\rouss\\node_modules\\@tailwindcss\\oxide-wasm32-wasi'
+210 silly reify ]
+211 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@emnapi\core
+212 silly reify mark deleted [ 'C:\\Users\\ASUS\\rouss\\node_modules\\@emnapi\\core' ]
+213 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@emnapi\wasi-threads
+214 silly reify mark deleted [ 'C:\\Users\\ASUS\\rouss\\node_modules\\@emnapi\\wasi-threads' ]
+215 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@napi-rs\wasm-runtime
+216 silly reify mark deleted [ 'C:\\Users\\ASUS\\rouss\\node_modules\\@napi-rs\\wasm-runtime' ]
+217 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@tybys\wasm-util
+218 silly reify mark deleted [ 'C:\\Users\\ASUS\\rouss\\node_modules\\@tybys\\wasm-util' ]
+219 silly audit bulk request {
+219 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+219 silly audit   '@ampproject/remapping': [ '2.3.0' ],
+219 silly audit   '@babel/runtime': [ '7.28.2' ],
+219 silly audit   '@emnapi/core': [ '1.4.5' ],
+219 silly audit   '@emnapi/runtime': [ '1.4.5' ],
+219 silly audit   '@emnapi/wasi-threads': [ '1.0.4' ],
+219 silly audit   '@img/sharp-darwin-arm64': [ '0.34.3' ],
+219 silly audit   '@img/sharp-darwin-x64': [ '0.34.3' ],
+219 silly audit   '@img/sharp-libvips-darwin-arm64': [ '1.2.0' ],
+219 silly audit   '@img/sharp-libvips-darwin-x64': [ '1.2.0' ],
+219 silly audit   '@img/sharp-libvips-linux-arm': [ '1.2.0' ],
+219 silly audit   '@img/sharp-libvips-linux-arm64': [ '1.2.0' ],
+219 silly audit   '@img/sharp-libvips-linux-ppc64': [ '1.2.0' ],
+219 silly audit   '@img/sharp-libvips-linux-s390x': [ '1.2.0' ],
+219 silly audit   '@img/sharp-libvips-linux-x64': [ '1.2.0' ],
+219 silly audit   '@img/sharp-libvips-linuxmusl-arm64': [ '1.2.0' ],
+219 silly audit   '@img/sharp-libvips-linuxmusl-x64': [ '1.2.0' ],
+219 silly audit   '@img/sharp-linux-arm': [ '0.34.3' ],
+219 silly audit   '@img/sharp-linux-arm64': [ '0.34.3' ],
+219 silly audit   '@img/sharp-linux-ppc64': [ '0.34.3' ],
+219 silly audit   '@img/sharp-linux-s390x': [ '0.34.3' ],
+219 silly audit   '@img/sharp-linux-x64': [ '0.34.3' ],
+219 silly audit   '@img/sharp-linuxmusl-arm64': [ '0.34.3' ],
+219 silly audit   '@img/sharp-linuxmusl-x64': [ '0.34.3' ],
+219 silly audit   '@img/sharp-wasm32': [ '0.34.3' ],
+219 silly audit   '@img/sharp-win32-arm64': [ '0.34.3' ],
+219 silly audit   '@img/sharp-win32-ia32': [ '0.34.3' ],
+219 silly audit   '@img/sharp-win32-x64': [ '0.34.3' ],
+219 silly audit   '@isaacs/fs-minipass': [ '4.0.1' ],
+219 silly audit   '@jridgewell/gen-mapping': [ '0.3.12' ],
+219 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+219 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.4' ],
+219 silly audit   '@jridgewell/trace-mapping': [ '0.3.29' ],
+219 silly audit   '@napi-rs/wasm-runtime': [ '0.2.12' ],
+219 silly audit   '@next/env': [ '15.4.4' ],
+219 silly audit   '@next/swc-darwin-arm64': [ '15.4.4' ],
+219 silly audit   '@next/swc-darwin-x64': [ '15.4.4' ],
+219 silly audit   '@next/swc-linux-arm64-gnu': [ '15.4.4' ],
+219 silly audit   '@next/swc-linux-arm64-musl': [ '15.4.4' ],
+219 silly audit   '@next/swc-linux-x64-gnu': [ '15.4.4' ],
+219 silly audit   '@next/swc-linux-x64-musl': [ '15.4.4' ],
+219 silly audit   '@next/swc-win32-arm64-msvc': [ '15.4.4' ],
+219 silly audit   '@next/swc-win32-x64-msvc': [ '15.4.4' ],
+219 silly audit   '@radix-ui/primitive': [ '1.1.2' ],
+219 silly audit   '@radix-ui/react-collection': [ '1.1.7' ],
+219 silly audit   '@radix-ui/react-compose-refs': [ '1.1.2' ],
+219 silly audit   '@radix-ui/react-context': [ '1.1.2' ],
+219 silly audit   '@radix-ui/react-direction': [ '1.1.1' ],
+219 silly audit   '@radix-ui/react-id': [ '1.1.1' ],
+219 silly audit   '@radix-ui/react-presence': [ '1.1.4' ],
+219 silly audit   '@radix-ui/react-primitive': [ '2.1.3' ],
+219 silly audit   '@radix-ui/react-roving-focus': [ '1.1.10' ],
+219 silly audit   '@radix-ui/react-slot': [ '1.2.3' ],
+219 silly audit   '@radix-ui/react-tabs': [ '1.1.12' ],
+219 silly audit   '@radix-ui/react-use-callback-ref': [ '1.1.1' ],
+219 silly audit   '@radix-ui/react-use-controllable-state': [ '1.2.2' ],
+219 silly audit   '@radix-ui/react-use-effect-event': [ '0.0.2' ],
+219 silly audit   '@radix-ui/react-use-layout-effect': [ '1.1.1' ],
+219 silly audit   '@swc/helpers': [ '0.5.15' ],
+219 silly audit   '@tabler/icons': [ '3.34.1' ],
+219 silly audit   '@tabler/icons-react': [ '3.34.1' ],
+219 silly audit   '@tailwindcss/node': [ '4.1.11' ],
+219 silly audit   '@tailwindcss/oxide': [ '4.1.11' ],
+219 silly audit   '@tailwindcss/oxide-android-arm64': [ '4.1.11' ],
+219 silly audit   '@tailwindcss/oxide-darwin-arm64': [ '4.1.11' ],
+219 silly audit   '@tailwindcss/oxide-darwin-x64': [ '4.1.11' ],
+219 silly audit   '@tailwindcss/oxide-freebsd-x64': [ '4.1.11' ],
+219 silly audit   '@tailwindcss/oxide-linux-arm-gnueabihf': [ '4.1.11' ],
+219 silly audit   '@tailwindcss/oxide-linux-arm64-gnu': [ '4.1.11' ],
+219 silly audit   '@tailwindcss/oxide-linux-arm64-musl': [ '4.1.11' ],
+219 silly audit   '@tailwindcss/oxide-linux-x64-gnu': [ '4.1.11' ],
+219 silly audit   '@tailwindcss/oxide-linux-x64-musl': [ '4.1.11' ],
+219 silly audit   '@tailwindcss/oxide-win32-arm64-msvc': [ '4.1.11' ],
+219 silly audit   '@tailwindcss/oxide-win32-x64-msvc': [ '4.1.11' ],
+219 silly audit   '@tailwindcss/postcss': [ '4.1.11' ],
+219 silly audit   '@tybys/wasm-util': [ '0.10.0' ],
+219 silly audit   '@types/next': [ '8.0.7' ],
+219 silly audit   '@types/next-server': [ '8.1.2' ],
+219 silly audit   '@types/node': [ '20.19.9' ],
+219 silly audit   '@types/node-fetch': [ '2.6.13' ],
+219 silly audit   '@types/raf': [ '3.4.3' ],
+219 silly audit   '@types/react': [ '19.1.9' ],
+219 silly audit   '@types/react-dom': [ '19.1.7' ],
+219 silly audit   '@types/react-loadable': [ '5.5.11' ],
+219 silly audit   '@types/source-list-map': [ '0.1.6' ],
+219 silly audit   '@types/tapable': [ '1.0.12' ],
+219 silly audit   '@types/trusted-types': [ '2.0.7' ],
+219 silly audit   '@types/uglify-js': [ '3.17.5' ],
+219 silly audit   '@types/webpack': [ '4.41.40' ],
+219 silly audit   '@types/webpack-sources': [ '3.2.3' ],
+219 silly audit   'source-map': [ '0.7.6', '0.6.1' ],
+219 silly audit   anymatch: [ '3.1.3' ],
+219 silly audit   asynckit: [ '0.4.0' ],
+219 silly audit   atob: [ '2.1.2' ],
+219 silly audit   autoprefixer: [ '10.4.21' ],
+219 silly audit   'base64-arraybuffer': [ '1.0.2' ],
+219 silly audit   browserslist: [ '4.25.1' ],
+219 silly audit   btoa: [ '1.2.1' ],
+219 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+219 silly audit   camelcase: [ '5.3.1' ],
+219 silly audit   'caniuse-lite': [ '1.0.30001731' ],
+219 silly audit   canvg: [ '3.0.11' ],
+219 silly audit   chownr: [ '3.0.0' ],
+219 silly audit   'class-variance-authority': [ '0.7.1' ],
+219 silly audit   classnames: [ '2.5.1' ],
+219 silly audit   'client-only': [ '0.0.1' ],
+219 silly audit   clsx: [ '2.1.1' ],
+219 silly audit   color: [ '4.2.3' ],
+219 silly audit   'color-convert': [ '2.0.1' ],
+219 silly audit   'color-name': [ '1.1.4' ],
+219 silly audit   'color-string': [ '1.9.1' ],
+219 silly audit   'combined-stream': [ '1.0.8' ],
+219 silly audit   'core-js': [ '3.44.0' ],
+219 silly audit   'css-line-break': [ '2.1.0' ],
+219 silly audit   csstype: [ '3.1.3' ],
+219 silly audit   'delayed-stream': [ '1.0.0' ],
+219 silly audit   'detect-libc': [ '2.0.4' ],
+219 silly audit   dompurify: [ '3.2.6' ],
+219 silly audit   'dunder-proto': [ '1.0.1' ],
+219 silly audit   'electron-to-chromium': [ '1.5.194' ],
+219 silly audit   'enhanced-resolve': [ '5.18.2' ],
+219 silly audit   'es-define-property': [ '1.0.1' ],
+219 silly audit   'es-errors': [ '1.3.0' ],
+219 silly audit   'es-object-atoms': [ '1.1.1' ],
+219 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+219 silly audit   escalade: [ '3.2.0' ],
+219 silly audit   fflate: [ '0.8.2' ],
+219 silly audit   'form-data': [ '4.0.4' ],
+219 silly audit   'fraction.js': [ '4.3.7' ],
+219 silly audit   'framer-motion': [ '12.23.12' ],
+219 silly audit   'function-bind': [ '1.1.2' ],
+219 silly audit   'get-intrinsic': [ '1.3.0' ],
+219 silly audit   'get-proto': [ '1.0.1' ],
+219 silly audit   gopd: [ '1.2.0' ],
+219 silly audit   'graceful-fs': [ '4.2.11' ],
+219 silly audit   'has-symbols': [ '1.1.0' ],
+219 silly audit   'has-tostringtag': [ '1.0.2' ],
+219 silly audit   hasown: [ '2.0.2' ],
+219 silly audit   html2canvas: [ '1.4.1' ],
+219 silly audit   'icons-react': [ '3.7.1' ],
+219 silly audit   'is-arrayish': [ '0.3.2' ],
+219 silly audit   jiti: [ '2.5.1' ],
+219 silly audit   'js-tokens': [ '4.0.0' ],
+219 silly audit   jspdf: [ '3.0.1' ],
+219 silly audit   'keen-slider': [ '6.8.6' ],
+219 silly audit   lightningcss: [ '1.30.1' ],
+219 silly audit   'lightningcss-darwin-arm64': [ '1.30.1' ],
+219 silly audit   'lightningcss-darwin-x64': [ '1.30.1' ],
+219 silly audit   'lightningcss-freebsd-x64': [ '1.30.1' ],
+219 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.30.1' ],
+219 silly audit   'lightningcss-linux-arm64-gnu': [ '1.30.1' ],
+219 silly audit   'lightningcss-linux-arm64-musl': [ '1.30.1' ],
+219 silly audit   'lightningcss-linux-x64-gnu': [ '1.30.1' ],
+219 silly audit   'lightningcss-linux-x64-musl': [ '1.30.1' ],
+219 silly audit   'lightningcss-win32-arm64-msvc': [ '1.30.1' ],
+219 silly audit   'lightningcss-win32-x64-msvc': [ '1.30.1' ],
+219 silly audit   'loose-envify': [ '1.4.0' ],
+219 silly audit   'lucide-react': [ '0.507.0' ],
+219 silly audit   'magic-string': [ '0.30.17' ],
+219 silly audit   'math-intrinsics': [ '1.1.0' ],
+219 silly audit   'mime-db': [ '1.52.0' ],
+219 silly audit   'mime-types': [ '2.1.35' ],
+219 silly audit   minipass: [ '7.1.2' ],
+219 silly audit   minizlib: [ '3.0.2' ],
+219 silly audit   mkdirp: [ '3.0.1' ],
+219 silly audit   motion: [ '12.23.12' ],
+219 silly audit   'motion-dom': [ '12.23.12' ],
+219 silly audit   'motion-utils': [ '12.23.6' ],
+219 silly audit   nanoid: [ '3.3.11' ],
+219 silly audit   next: [ '15.4.4' ],
+219 silly audit   postcss: [ '8.4.31', '8.5.6' ],
+219 silly audit   'node-releases': [ '2.0.19' ],
+219 silly audit   'normalize-path': [ '3.0.0' ],
+219 silly audit   'normalize-range': [ '0.1.2' ],
+219 silly audit   'object-assign': [ '4.1.1' ],
+219 silly audit   'performance-now': [ '2.1.0' ],
+219 silly audit   picocolors: [ '1.1.1' ],
+219 silly audit   picomatch: [ '2.3.1' ],
+219 silly audit   'postcss-value-parser': [ '4.2.0' ],
+219 silly audit   'prop-types': [ '15.8.1' ],
+219 silly audit   raf: [ '3.4.1' ],
+219 silly audit   react: [ '19.1.0' ],
+219 silly audit   'react-dom': [ '19.1.0' ],
+219 silly audit   'react-easy-swipe': [ '0.0.21' ],
+219 silly audit   'react-icons': [ '5.5.0' ],
+219 silly audit   'react-is': [ '16.13.1' ],
+219 silly audit   'react-responsive-carousel': [ '3.2.23' ],
+219 silly audit   'regenerator-runtime': [ '0.13.11' ],
+219 silly audit   rgbcolor: [ '1.0.1' ],
+219 silly audit   scheduler: [ '0.26.0' ],
+219 silly audit   semver: [ '7.7.2' ],
+219 silly audit   sharp: [ '0.34.3' ],
+219 silly audit   'simple-swizzle': [ '0.2.2' ],
+219 silly audit   'source-map-js': [ '1.2.1' ],
+219 silly audit   'stackblur-canvas': [ '2.7.0' ],
+219 silly audit   'styled-jsx': [ '5.1.6' ],
+219 silly audit   'svg-pathdata': [ '6.0.3' ],
+219 silly audit   'tailwind-merge': [ '3.3.1' ],
+219 silly audit   tailwindcss: [ '4.1.11' ],
+219 silly audit   tapable: [ '2.2.2' ],
+219 silly audit   tar: [ '7.4.3' ],
+219 silly audit   'text-segmentation': [ '1.0.3' ],
+219 silly audit   tslib: [ '2.8.1' ],
+219 silly audit   'tw-animate-css': [ '1.3.6' ],
+219 silly audit   typescript: [ '5.8.3' ],
+219 silly audit   'undici-types': [ '6.21.0' ],
+219 silly audit   'update-browserslist-db': [ '1.1.3' ],
+219 silly audit   utrie: [ '1.0.2' ],
+219 silly audit   yallist: [ '5.0.0' ],
+219 silly audit   '@tsparticles/engine': [ '3.9.0' ],
+219 silly audit   '@tsparticles/react': [ '3.0.0' ],
+219 silly audit   '@tsparticles/slim': [ '3.9.0' ],
+219 silly audit   '@tsparticles/basic': [ '3.9.0' ],
+219 silly audit   '@tsparticles/interaction-external-attract': [ '3.9.0' ],
+219 silly audit   '@tsparticles/interaction-external-bounce': [ '3.9.0' ],
+219 silly audit   '@tsparticles/interaction-external-bubble': [ '3.9.0' ],
+219 silly audit   '@tsparticles/interaction-external-connect': [ '3.9.0' ],
+219 silly audit   '@tsparticles/interaction-external-grab': [ '3.9.0' ],
+219 silly audit   '@tsparticles/interaction-external-pause': [ '3.9.0' ],
+219 silly audit   '@tsparticles/interaction-external-push': [ '3.9.0' ],
+219 silly audit   '@tsparticles/interaction-external-remove': [ '3.9.0' ],
+219 silly audit   '@tsparticles/interaction-external-repulse': [ '3.9.0' ],
+219 silly audit   '@tsparticles/interaction-external-slow': [ '3.9.0' ],
+219 silly audit   '@tsparticles/interaction-particles-attract': [ '3.9.0' ],
+219 silly audit   '@tsparticles/interaction-particles-collisions': [ '3.9.0' ],
+219 silly audit   '@tsparticles/interaction-particles-links': [ '3.9.0' ],
+219 silly audit   '@tsparticles/move-parallax': [ '3.9.0' ],
+219 silly audit   '@tsparticles/plugin-easing-quad': [ '3.9.0' ],
+219 silly audit   '@tsparticles/shape-emoji': [ '3.9.0' ],
+219 silly audit   '@tsparticles/shape-image': [ '3.9.0' ],
+219 silly audit   '@tsparticles/shape-line': [ '3.9.0' ],
+219 silly audit   '@tsparticles/shape-polygon': [ '3.9.0' ],
+219 silly audit   '@tsparticles/shape-square': [ '3.9.0' ],
+219 silly audit   '@tsparticles/shape-star': [ '3.9.0' ],
+219 silly audit   '@tsparticles/updater-life': [ '3.9.0' ],
+219 silly audit   '@tsparticles/updater-rotate': [ '3.9.0' ],
+219 silly audit   '@tsparticles/updater-stroke-color': [ '3.9.0' ],
+219 silly audit   '@tsparticles/move-base': [ '3.9.0' ],
+219 silly audit   '@tsparticles/plugin-hex-color': [ '3.9.0' ],
+219 silly audit   '@tsparticles/plugin-hsl-color': [ '3.9.0' ],
+219 silly audit   '@tsparticles/plugin-rgb-color': [ '3.9.0' ],
+219 silly audit   '@tsparticles/shape-circle': [ '3.9.0' ],
+219 silly audit   '@tsparticles/updater-color': [ '3.9.0' ],
+219 silly audit   '@tsparticles/updater-opacity': [ '3.9.0' ],
+219 silly audit   '@tsparticles/updater-out-modes': [ '3.9.0' ],
+219 silly audit   '@tsparticles/updater-size': [ '3.9.0' ],
+219 silly audit   '@tailwindcss/oxide-wasm32-wasi': [ '4.1.11' ]
+219 silly audit }
+220 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\lightningcss-win32-arm64-msvc
+221 silly reify mark deleted [
+221 silly reify   'C:\\Users\\ASUS\\rouss\\node_modules\\lightningcss-win32-arm64-msvc'
+221 silly reify ]
+222 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\lightningcss-linux-x64-musl
+223 silly reify mark deleted [ 'C:\\Users\\ASUS\\rouss\\node_modules\\lightningcss-linux-x64-musl' ]
+224 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\lightningcss-linux-x64-gnu
+225 silly reify mark deleted [ 'C:\\Users\\ASUS\\rouss\\node_modules\\lightningcss-linux-x64-gnu' ]
+226 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\lightningcss-linux-arm64-musl
+227 silly reify mark deleted [
+227 silly reify   'C:\\Users\\ASUS\\rouss\\node_modules\\lightningcss-linux-arm64-musl'
+227 silly reify ]
+228 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\lightningcss-linux-arm64-gnu
+229 silly reify mark deleted [
+229 silly reify   'C:\\Users\\ASUS\\rouss\\node_modules\\lightningcss-linux-arm64-gnu'
+229 silly reify ]
+230 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\lightningcss-linux-arm-gnueabihf
+231 silly reify mark deleted [
+231 silly reify   'C:\\Users\\ASUS\\rouss\\node_modules\\lightningcss-linux-arm-gnueabihf'
+231 silly reify ]
+232 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\lightningcss-freebsd-x64
+233 silly reify mark deleted [ 'C:\\Users\\ASUS\\rouss\\node_modules\\lightningcss-freebsd-x64' ]
+234 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\lightningcss-darwin-x64
+235 silly reify mark deleted [ 'C:\\Users\\ASUS\\rouss\\node_modules\\lightningcss-darwin-x64' ]
+236 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\lightningcss-darwin-arm64
+237 silly reify mark deleted [ 'C:\\Users\\ASUS\\rouss\\node_modules\\lightningcss-darwin-arm64' ]
+238 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@tailwindcss\oxide-win32-arm64-msvc
+239 silly reify mark deleted [
+239 silly reify   'C:\\Users\\ASUS\\rouss\\node_modules\\@tailwindcss\\oxide-win32-arm64-msvc'
+239 silly reify ]
+240 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@tailwindcss\oxide-linux-x64-musl
+241 silly reify mark deleted [
+241 silly reify   'C:\\Users\\ASUS\\rouss\\node_modules\\@tailwindcss\\oxide-linux-x64-musl'
+241 silly reify ]
+242 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@tailwindcss\oxide-linux-x64-gnu
+243 silly reify mark deleted [
+243 silly reify   'C:\\Users\\ASUS\\rouss\\node_modules\\@tailwindcss\\oxide-linux-x64-gnu'
+243 silly reify ]
+244 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@tailwindcss\oxide-linux-arm64-musl
+245 silly reify mark deleted [
+245 silly reify   'C:\\Users\\ASUS\\rouss\\node_modules\\@tailwindcss\\oxide-linux-arm64-musl'
+245 silly reify ]
+246 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@tailwindcss\oxide-linux-arm64-gnu
+247 silly reify mark deleted [
+247 silly reify   'C:\\Users\\ASUS\\rouss\\node_modules\\@tailwindcss\\oxide-linux-arm64-gnu'
+247 silly reify ]
+248 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@tailwindcss\oxide-linux-arm-gnueabihf
+249 silly reify mark deleted [
+249 silly reify   'C:\\Users\\ASUS\\rouss\\node_modules\\@tailwindcss\\oxide-linux-arm-gnueabihf'
+249 silly reify ]
+250 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@tailwindcss\oxide-freebsd-x64
+251 silly reify mark deleted [
+251 silly reify   'C:\\Users\\ASUS\\rouss\\node_modules\\@tailwindcss\\oxide-freebsd-x64'
+251 silly reify ]
+252 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@tailwindcss\oxide-darwin-x64
+253 silly reify mark deleted [
+253 silly reify   'C:\\Users\\ASUS\\rouss\\node_modules\\@tailwindcss\\oxide-darwin-x64'
+253 silly reify ]
+254 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@tailwindcss\oxide-darwin-arm64
+255 silly reify mark deleted [
+255 silly reify   'C:\\Users\\ASUS\\rouss\\node_modules\\@tailwindcss\\oxide-darwin-arm64'
+255 silly reify ]
+256 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@tailwindcss\oxide-android-arm64
+257 silly reify mark deleted [
+257 silly reify   'C:\\Users\\ASUS\\rouss\\node_modules\\@tailwindcss\\oxide-android-arm64'
+257 silly reify ]
+258 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@next\swc-win32-arm64-msvc
+259 silly reify mark deleted [ 'C:\\Users\\ASUS\\rouss\\node_modules\\@next\\swc-win32-arm64-msvc' ]
+260 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@next\swc-linux-x64-musl
+261 silly reify mark deleted [ 'C:\\Users\\ASUS\\rouss\\node_modules\\@next\\swc-linux-x64-musl' ]
+262 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@next\swc-linux-x64-gnu
+263 silly reify mark deleted [ 'C:\\Users\\ASUS\\rouss\\node_modules\\@next\\swc-linux-x64-gnu' ]
+264 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@next\swc-linux-arm64-musl
+265 silly reify mark deleted [ 'C:\\Users\\ASUS\\rouss\\node_modules\\@next\\swc-linux-arm64-musl' ]
+266 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@next\swc-linux-arm64-gnu
+267 silly reify mark deleted [ 'C:\\Users\\ASUS\\rouss\\node_modules\\@next\\swc-linux-arm64-gnu' ]
+268 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@next\swc-darwin-x64
+269 silly reify mark deleted [ 'C:\\Users\\ASUS\\rouss\\node_modules\\@next\\swc-darwin-x64' ]
+270 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@next\swc-darwin-arm64
+271 silly reify mark deleted [ 'C:\\Users\\ASUS\\rouss\\node_modules\\@next\\swc-darwin-arm64' ]
+272 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@img\sharp-win32-ia32
+273 silly reify mark deleted [ 'C:\\Users\\ASUS\\rouss\\node_modules\\@img\\sharp-win32-ia32' ]
+274 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@img\sharp-win32-arm64
+275 silly reify mark deleted [ 'C:\\Users\\ASUS\\rouss\\node_modules\\@img\\sharp-win32-arm64' ]
+276 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@img\sharp-wasm32
+277 silly reify mark deleted [ 'C:\\Users\\ASUS\\rouss\\node_modules\\@img\\sharp-wasm32' ]
+278 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@img\sharp-linuxmusl-x64
+279 silly reify mark deleted [ 'C:\\Users\\ASUS\\rouss\\node_modules\\@img\\sharp-linuxmusl-x64' ]
+280 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@img\sharp-linuxmusl-arm64
+281 silly reify mark deleted [ 'C:\\Users\\ASUS\\rouss\\node_modules\\@img\\sharp-linuxmusl-arm64' ]
+282 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@img\sharp-linux-x64
+283 silly reify mark deleted [ 'C:\\Users\\ASUS\\rouss\\node_modules\\@img\\sharp-linux-x64' ]
+284 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@img\sharp-linux-s390x
+285 silly reify mark deleted [ 'C:\\Users\\ASUS\\rouss\\node_modules\\@img\\sharp-linux-s390x' ]
+286 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@img\sharp-linux-ppc64
+287 silly reify mark deleted [ 'C:\\Users\\ASUS\\rouss\\node_modules\\@img\\sharp-linux-ppc64' ]
+288 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@img\sharp-linux-arm64
+289 silly reify mark deleted [ 'C:\\Users\\ASUS\\rouss\\node_modules\\@img\\sharp-linux-arm64' ]
+290 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@img\sharp-linux-arm
+291 silly reify mark deleted [ 'C:\\Users\\ASUS\\rouss\\node_modules\\@img\\sharp-linux-arm' ]
+292 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@img\sharp-libvips-linuxmusl-x64
+293 silly reify mark deleted [
+293 silly reify   'C:\\Users\\ASUS\\rouss\\node_modules\\@img\\sharp-libvips-linuxmusl-x64'
+293 silly reify ]
+294 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@img\sharp-libvips-linuxmusl-arm64
+295 silly reify mark deleted [
+295 silly reify   'C:\\Users\\ASUS\\rouss\\node_modules\\@img\\sharp-libvips-linuxmusl-arm64'
+295 silly reify ]
+296 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@img\sharp-libvips-linux-x64
+297 silly reify mark deleted [
+297 silly reify   'C:\\Users\\ASUS\\rouss\\node_modules\\@img\\sharp-libvips-linux-x64'
+297 silly reify ]
+298 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@img\sharp-libvips-linux-s390x
+299 silly reify mark deleted [
+299 silly reify   'C:\\Users\\ASUS\\rouss\\node_modules\\@img\\sharp-libvips-linux-s390x'
+299 silly reify ]
+300 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@img\sharp-libvips-linux-ppc64
+301 silly reify mark deleted [
+301 silly reify   'C:\\Users\\ASUS\\rouss\\node_modules\\@img\\sharp-libvips-linux-ppc64'
+301 silly reify ]
+302 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@img\sharp-libvips-linux-arm64
+303 silly reify mark deleted [
+303 silly reify   'C:\\Users\\ASUS\\rouss\\node_modules\\@img\\sharp-libvips-linux-arm64'
+303 silly reify ]
+304 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@img\sharp-libvips-linux-arm
+305 silly reify mark deleted [
+305 silly reify   'C:\\Users\\ASUS\\rouss\\node_modules\\@img\\sharp-libvips-linux-arm'
+305 silly reify ]
+306 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@img\sharp-libvips-darwin-x64
+307 silly reify mark deleted [
+307 silly reify   'C:\\Users\\ASUS\\rouss\\node_modules\\@img\\sharp-libvips-darwin-x64'
+307 silly reify ]
+308 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@img\sharp-libvips-darwin-arm64
+309 silly reify mark deleted [
+309 silly reify   'C:\\Users\\ASUS\\rouss\\node_modules\\@img\\sharp-libvips-darwin-arm64'
+309 silly reify ]
+310 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@img\sharp-darwin-x64
+311 silly reify mark deleted [ 'C:\\Users\\ASUS\\rouss\\node_modules\\@img\\sharp-darwin-x64' ]
+312 verbose reify failed optional dependency C:\Users\ASUS\rouss\node_modules\@img\sharp-darwin-arm64
+313 silly reify mark deleted [ 'C:\\Users\\ASUS\\rouss\\node_modules\\@img\\sharp-darwin-arm64' ]
+314 http cache @tsparticles/updater-size@https://registry.npmjs.org/@tsparticles/updater-size/-/updater-size-3.9.0.tgz 0ms (cache hit)
+315 http cache @tsparticles/updater-color@https://registry.npmjs.org/@tsparticles/updater-color/-/updater-color-3.9.0.tgz 0ms (cache hit)
+316 http cache @tsparticles/updater-opacity@https://registry.npmjs.org/@tsparticles/updater-opacity/-/updater-opacity-3.9.0.tgz 0ms (cache hit)
+317 http cache @tsparticles/shape-circle@https://registry.npmjs.org/@tsparticles/shape-circle/-/shape-circle-3.9.0.tgz 0ms (cache hit)
+318 http cache @tsparticles/plugin-hsl-color@https://registry.npmjs.org/@tsparticles/plugin-hsl-color/-/plugin-hsl-color-3.9.0.tgz 0ms (cache hit)
+319 http cache @tsparticles/updater-out-modes@https://registry.npmjs.org/@tsparticles/updater-out-modes/-/updater-out-modes-3.9.0.tgz 0ms (cache hit)
+320 http cache @tsparticles/plugin-rgb-color@https://registry.npmjs.org/@tsparticles/plugin-rgb-color/-/plugin-rgb-color-3.9.0.tgz 0ms (cache hit)
+321 http cache @tsparticles/move-base@https://registry.npmjs.org/@tsparticles/move-base/-/move-base-3.9.0.tgz 0ms (cache hit)
+322 http cache @tsparticles/updater-rotate@https://registry.npmjs.org/@tsparticles/updater-rotate/-/updater-rotate-3.9.0.tgz 0ms (cache hit)
+323 http cache @tsparticles/updater-life@https://registry.npmjs.org/@tsparticles/updater-life/-/updater-life-3.9.0.tgz 0ms (cache hit)
+324 http cache @tsparticles/shape-square@https://registry.npmjs.org/@tsparticles/shape-square/-/shape-square-3.9.0.tgz 0ms (cache hit)
+325 http cache @tsparticles/updater-stroke-color@https://registry.npmjs.org/@tsparticles/updater-stroke-color/-/updater-stroke-color-3.9.0.tgz 0ms (cache hit)
+326 http cache @tsparticles/shape-line@https://registry.npmjs.org/@tsparticles/shape-line/-/shape-line-3.9.0.tgz 0ms (cache hit)
+327 http cache @tsparticles/shape-image@https://registry.npmjs.org/@tsparticles/shape-image/-/shape-image-3.9.0.tgz 0ms (cache hit)
+328 http cache @tsparticles/shape-star@https://registry.npmjs.org/@tsparticles/shape-star/-/shape-star-3.9.0.tgz 0ms (cache hit)
+329 http cache @tsparticles/plugin-hex-color@https://registry.npmjs.org/@tsparticles/plugin-hex-color/-/plugin-hex-color-3.9.0.tgz 0ms (cache hit)
+330 http cache @tsparticles/shape-emoji@https://registry.npmjs.org/@tsparticles/shape-emoji/-/shape-emoji-3.9.0.tgz 0ms (cache hit)
+331 http cache @tsparticles/plugin-easing-quad@https://registry.npmjs.org/@tsparticles/plugin-easing-quad/-/plugin-easing-quad-3.9.0.tgz 0ms (cache hit)
+332 http cache @tsparticles/shape-polygon@https://registry.npmjs.org/@tsparticles/shape-polygon/-/shape-polygon-3.9.0.tgz 0ms (cache hit)
+333 http cache @tsparticles/interaction-particles-links@https://registry.npmjs.org/@tsparticles/interaction-particles-links/-/interaction-particles-links-3.9.0.tgz 0ms (cache hit)
+334 http cache @tsparticles/interaction-external-slow@https://registry.npmjs.org/@tsparticles/interaction-external-slow/-/interaction-external-slow-3.9.0.tgz 0ms (cache hit)
+335 http cache @tsparticles/move-parallax@https://registry.npmjs.org/@tsparticles/move-parallax/-/move-parallax-3.9.0.tgz 0ms (cache hit)
+336 http cache @tsparticles/interaction-particles-attract@https://registry.npmjs.org/@tsparticles/interaction-particles-attract/-/interaction-particles-attract-3.9.0.tgz 0ms (cache hit)
+337 http cache @tsparticles/interaction-external-remove@https://registry.npmjs.org/@tsparticles/interaction-external-remove/-/interaction-external-remove-3.9.0.tgz 0ms (cache hit)
+338 http cache @tsparticles/interaction-external-repulse@https://registry.npmjs.org/@tsparticles/interaction-external-repulse/-/interaction-external-repulse-3.9.0.tgz 0ms (cache hit)
+339 http cache @tsparticles/interaction-external-push@https://registry.npmjs.org/@tsparticles/interaction-external-push/-/interaction-external-push-3.9.0.tgz 0ms (cache hit)
+340 http cache @tsparticles/interaction-external-grab@https://registry.npmjs.org/@tsparticles/interaction-external-grab/-/interaction-external-grab-3.9.0.tgz 0ms (cache hit)
+341 http cache @tsparticles/interaction-external-bounce@https://registry.npmjs.org/@tsparticles/interaction-external-bounce/-/interaction-external-bounce-3.9.0.tgz 0ms (cache hit)
+342 http cache @tsparticles/interaction-particles-collisions@https://registry.npmjs.org/@tsparticles/interaction-particles-collisions/-/interaction-particles-collisions-3.9.0.tgz 0ms (cache hit)
+343 http cache @tsparticles/interaction-external-bubble@https://registry.npmjs.org/@tsparticles/interaction-external-bubble/-/interaction-external-bubble-3.9.0.tgz 0ms (cache hit)
+344 http cache @tsparticles/interaction-external-pause@https://registry.npmjs.org/@tsparticles/interaction-external-pause/-/interaction-external-pause-3.9.0.tgz 0ms (cache hit)
+345 http cache @tsparticles/interaction-external-connect@https://registry.npmjs.org/@tsparticles/interaction-external-connect/-/interaction-external-connect-3.9.0.tgz 0ms (cache hit)
+346 http cache @tsparticles/slim@https://registry.npmjs.org/@tsparticles/slim/-/slim-3.9.0.tgz 0ms (cache hit)
+347 http cache @tsparticles/interaction-external-attract@https://registry.npmjs.org/@tsparticles/interaction-external-attract/-/interaction-external-attract-3.9.0.tgz 0ms (cache hit)
+348 http cache @tsparticles/basic@https://registry.npmjs.org/@tsparticles/basic/-/basic-3.9.0.tgz 0ms (cache hit)
+349 http cache @tsparticles/engine@https://registry.npmjs.org/@tsparticles/engine/-/engine-3.9.0.tgz 0ms (cache hit)
+350 silly tarball no local data for @tsparticles/updater-size@https://registry.npmjs.org/@tsparticles/updater-size/-/updater-size-3.9.0.tgz. Extracting by manifest.
+351 silly tarball no local data for @tsparticles/updater-color@https://registry.npmjs.org/@tsparticles/updater-color/-/updater-color-3.9.0.tgz. Extracting by manifest.
+352 silly tarball no local data for @tsparticles/updater-opacity@https://registry.npmjs.org/@tsparticles/updater-opacity/-/updater-opacity-3.9.0.tgz. Extracting by manifest.
+353 silly tarball no local data for @tsparticles/shape-circle@https://registry.npmjs.org/@tsparticles/shape-circle/-/shape-circle-3.9.0.tgz. Extracting by manifest.
+354 silly tarball no local data for @tsparticles/plugin-hsl-color@https://registry.npmjs.org/@tsparticles/plugin-hsl-color/-/plugin-hsl-color-3.9.0.tgz. Extracting by manifest.
+355 silly tarball no local data for @tsparticles/updater-out-modes@https://registry.npmjs.org/@tsparticles/updater-out-modes/-/updater-out-modes-3.9.0.tgz. Extracting by manifest.
+356 silly tarball no local data for @tsparticles/plugin-rgb-color@https://registry.npmjs.org/@tsparticles/plugin-rgb-color/-/plugin-rgb-color-3.9.0.tgz. Extracting by manifest.
+357 silly tarball no local data for @tsparticles/move-base@https://registry.npmjs.org/@tsparticles/move-base/-/move-base-3.9.0.tgz. Extracting by manifest.
+358 http cache @tsparticles/react@https://registry.npmjs.org/@tsparticles/react/-/react-3.0.0.tgz 0ms (cache hit)
+359 silly tarball no local data for @tsparticles/updater-rotate@https://registry.npmjs.org/@tsparticles/updater-rotate/-/updater-rotate-3.9.0.tgz. Extracting by manifest.
+360 silly tarball no local data for @tsparticles/updater-life@https://registry.npmjs.org/@tsparticles/updater-life/-/updater-life-3.9.0.tgz. Extracting by manifest.
+361 silly tarball no local data for @tsparticles/shape-square@https://registry.npmjs.org/@tsparticles/shape-square/-/shape-square-3.9.0.tgz. Extracting by manifest.
+362 silly tarball no local data for @tsparticles/updater-stroke-color@https://registry.npmjs.org/@tsparticles/updater-stroke-color/-/updater-stroke-color-3.9.0.tgz. Extracting by manifest.
+363 silly tarball no local data for @tsparticles/shape-line@https://registry.npmjs.org/@tsparticles/shape-line/-/shape-line-3.9.0.tgz. Extracting by manifest.
+364 silly tarball no local data for @tsparticles/shape-image@https://registry.npmjs.org/@tsparticles/shape-image/-/shape-image-3.9.0.tgz. Extracting by manifest.
+365 silly tarball no local data for @tsparticles/shape-star@https://registry.npmjs.org/@tsparticles/shape-star/-/shape-star-3.9.0.tgz. Extracting by manifest.
+366 silly tarball no local data for @tsparticles/plugin-hex-color@https://registry.npmjs.org/@tsparticles/plugin-hex-color/-/plugin-hex-color-3.9.0.tgz. Extracting by manifest.
+367 silly tarball no local data for @tsparticles/shape-emoji@https://registry.npmjs.org/@tsparticles/shape-emoji/-/shape-emoji-3.9.0.tgz. Extracting by manifest.
+368 silly tarball no local data for @tsparticles/plugin-easing-quad@https://registry.npmjs.org/@tsparticles/plugin-easing-quad/-/plugin-easing-quad-3.9.0.tgz. Extracting by manifest.
+369 silly tarball no local data for @tsparticles/shape-polygon@https://registry.npmjs.org/@tsparticles/shape-polygon/-/shape-polygon-3.9.0.tgz. Extracting by manifest.
+370 silly tarball no local data for @tsparticles/interaction-particles-links@https://registry.npmjs.org/@tsparticles/interaction-particles-links/-/interaction-particles-links-3.9.0.tgz. Extracting by manifest.
+371 silly tarball no local data for @tsparticles/interaction-external-slow@https://registry.npmjs.org/@tsparticles/interaction-external-slow/-/interaction-external-slow-3.9.0.tgz. Extracting by manifest.
+372 silly tarball no local data for @tsparticles/move-parallax@https://registry.npmjs.org/@tsparticles/move-parallax/-/move-parallax-3.9.0.tgz. Extracting by manifest.
+373 silly tarball no local data for @tsparticles/interaction-particles-attract@https://registry.npmjs.org/@tsparticles/interaction-particles-attract/-/interaction-particles-attract-3.9.0.tgz. Extracting by manifest.
+374 silly tarball no local data for @tsparticles/interaction-external-remove@https://registry.npmjs.org/@tsparticles/interaction-external-remove/-/interaction-external-remove-3.9.0.tgz. Extracting by manifest.
+375 silly tarball no local data for @tsparticles/interaction-external-repulse@https://registry.npmjs.org/@tsparticles/interaction-external-repulse/-/interaction-external-repulse-3.9.0.tgz. Extracting by manifest.
+376 silly tarball no local data for @tsparticles/interaction-external-push@https://registry.npmjs.org/@tsparticles/interaction-external-push/-/interaction-external-push-3.9.0.tgz. Extracting by manifest.
+377 silly tarball no local data for @tsparticles/interaction-external-grab@https://registry.npmjs.org/@tsparticles/interaction-external-grab/-/interaction-external-grab-3.9.0.tgz. Extracting by manifest.
+378 silly tarball no local data for @tsparticles/interaction-external-bounce@https://registry.npmjs.org/@tsparticles/interaction-external-bounce/-/interaction-external-bounce-3.9.0.tgz. Extracting by manifest.
+379 silly tarball no local data for @tsparticles/interaction-particles-collisions@https://registry.npmjs.org/@tsparticles/interaction-particles-collisions/-/interaction-particles-collisions-3.9.0.tgz. Extracting by manifest.
+380 silly tarball no local data for @tsparticles/interaction-external-bubble@https://registry.npmjs.org/@tsparticles/interaction-external-bubble/-/interaction-external-bubble-3.9.0.tgz. Extracting by manifest.
+381 silly tarball no local data for @tsparticles/interaction-external-pause@https://registry.npmjs.org/@tsparticles/interaction-external-pause/-/interaction-external-pause-3.9.0.tgz. Extracting by manifest.
+382 silly tarball no local data for @tsparticles/interaction-external-connect@https://registry.npmjs.org/@tsparticles/interaction-external-connect/-/interaction-external-connect-3.9.0.tgz. Extracting by manifest.
+383 silly tarball no local data for @tsparticles/slim@https://registry.npmjs.org/@tsparticles/slim/-/slim-3.9.0.tgz. Extracting by manifest.
+384 silly tarball no local data for @tsparticles/interaction-external-attract@https://registry.npmjs.org/@tsparticles/interaction-external-attract/-/interaction-external-attract-3.9.0.tgz. Extracting by manifest.
+385 silly tarball no local data for @tsparticles/basic@https://registry.npmjs.org/@tsparticles/basic/-/basic-3.9.0.tgz. Extracting by manifest.
+386 silly tarball no local data for @tsparticles/engine@https://registry.npmjs.org/@tsparticles/engine/-/engine-3.9.0.tgz. Extracting by manifest.
+387 silly tarball no local data for @tsparticles/react@https://registry.npmjs.org/@tsparticles/react/-/react-3.0.0.tgz. Extracting by manifest.
+388 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 367ms
+389 silly audit report {}
+390 http fetch GET 200 https://registry.npmjs.org/@tsparticles/updater-opacity/-/updater-opacity-3.9.0.tgz 925ms (cache miss)
+391 http fetch GET 200 https://registry.npmjs.org/@tsparticles/updater-size/-/updater-size-3.9.0.tgz 1037ms (cache miss)
+392 http fetch GET 200 https://registry.npmjs.org/@tsparticles/shape-circle/-/shape-circle-3.9.0.tgz 1067ms (cache miss)
+393 http fetch GET 200 https://registry.npmjs.org/@tsparticles/plugin-rgb-color/-/plugin-rgb-color-3.9.0.tgz 1070ms (cache miss)
+394 http fetch GET 200 https://registry.npmjs.org/@tsparticles/updater-color/-/updater-color-3.9.0.tgz 1077ms (cache miss)
+395 http fetch GET 200 https://registry.npmjs.org/@tsparticles/plugin-hsl-color/-/plugin-hsl-color-3.9.0.tgz 1086ms (cache miss)
+396 http fetch GET 200 https://registry.npmjs.org/@tsparticles/move-base/-/move-base-3.9.0.tgz 1099ms (cache miss)
+397 http fetch GET 200 https://registry.npmjs.org/@tsparticles/updater-rotate/-/updater-rotate-3.9.0.tgz 1133ms (cache miss)
+398 http fetch GET 200 https://registry.npmjs.org/@tsparticles/updater-out-modes/-/updater-out-modes-3.9.0.tgz 1144ms (cache miss)
+399 http fetch GET 200 https://registry.npmjs.org/@tsparticles/updater-life/-/updater-life-3.9.0.tgz 1172ms (cache miss)
+400 http fetch GET 200 https://registry.npmjs.org/@tsparticles/shape-star/-/shape-star-3.9.0.tgz 1312ms (cache miss)
+401 http fetch GET 200 https://registry.npmjs.org/@tsparticles/updater-stroke-color/-/updater-stroke-color-3.9.0.tgz 1448ms (cache miss)
+402 http fetch GET 200 https://registry.npmjs.org/@tsparticles/shape-square/-/shape-square-3.9.0.tgz 1483ms (cache miss)
+403 http fetch GET 200 https://registry.npmjs.org/@tsparticles/shape-line/-/shape-line-3.9.0.tgz 1492ms (cache miss)
+404 http fetch GET 200 https://registry.npmjs.org/@tsparticles/shape-image/-/shape-image-3.9.0.tgz 1573ms (cache miss)
+405 http fetch GET 200 https://registry.npmjs.org/@tsparticles/plugin-hex-color/-/plugin-hex-color-3.9.0.tgz 1747ms (cache miss)
+406 http fetch GET 200 https://registry.npmjs.org/@tsparticles/plugin-easing-quad/-/plugin-easing-quad-3.9.0.tgz 1833ms (cache miss)
+407 http fetch GET 200 https://registry.npmjs.org/@tsparticles/move-parallax/-/move-parallax-3.9.0.tgz 1896ms (cache miss)
+408 http fetch GET 200 https://registry.npmjs.org/@tsparticles/shape-emoji/-/shape-emoji-3.9.0.tgz 1916ms (cache miss)
+409 http fetch GET 200 https://registry.npmjs.org/@tsparticles/interaction-particles-attract/-/interaction-particles-attract-3.9.0.tgz 1916ms (cache miss)
+410 http fetch GET 200 https://registry.npmjs.org/@tsparticles/shape-polygon/-/shape-polygon-3.9.0.tgz 1930ms (cache miss)
+411 http fetch GET 200 https://registry.npmjs.org/@tsparticles/interaction-external-remove/-/interaction-external-remove-3.9.0.tgz 1952ms (cache miss)
+412 http fetch GET 200 https://registry.npmjs.org/@tsparticles/interaction-external-slow/-/interaction-external-slow-3.9.0.tgz 1966ms (cache miss)
+413 http fetch GET 200 https://registry.npmjs.org/@tsparticles/interaction-external-repulse/-/interaction-external-repulse-3.9.0.tgz 2003ms (cache miss)
+414 http fetch GET 200 https://registry.npmjs.org/@tsparticles/interaction-particles-links/-/interaction-particles-links-3.9.0.tgz 2036ms (cache miss)
+415 http fetch GET 200 https://registry.npmjs.org/@tsparticles/interaction-external-push/-/interaction-external-push-3.9.0.tgz 2122ms (cache miss)
+416 http fetch GET 200 https://registry.npmjs.org/@tsparticles/interaction-external-grab/-/interaction-external-grab-3.9.0.tgz 2278ms (cache miss)
+417 http fetch GET 200 https://registry.npmjs.org/@tsparticles/interaction-particles-collisions/-/interaction-particles-collisions-3.9.0.tgz 2303ms (cache miss)
+418 http fetch GET 200 https://registry.npmjs.org/@tsparticles/interaction-external-bounce/-/interaction-external-bounce-3.9.0.tgz 2333ms (cache miss)
+419 http fetch GET 200 https://registry.npmjs.org/@tsparticles/interaction-external-bubble/-/interaction-external-bubble-3.9.0.tgz 2362ms (cache miss)
+420 http fetch GET 200 https://registry.npmjs.org/@tsparticles/interaction-external-pause/-/interaction-external-pause-3.9.0.tgz 2578ms (cache miss)
+421 http fetch GET 200 https://registry.npmjs.org/@tsparticles/react/-/react-3.0.0.tgz 2635ms (cache miss)
+422 http fetch GET 200 https://registry.npmjs.org/@tsparticles/slim/-/slim-3.9.0.tgz 2673ms (cache miss)
+423 http fetch GET 200 https://registry.npmjs.org/@tsparticles/interaction-external-attract/-/interaction-external-attract-3.9.0.tgz 2726ms (cache miss)
+424 http fetch GET 200 https://registry.npmjs.org/@tsparticles/interaction-external-connect/-/interaction-external-connect-3.9.0.tgz 2748ms (cache miss)
+425 http fetch GET 200 https://registry.npmjs.org/@tsparticles/basic/-/basic-3.9.0.tgz 2744ms (cache miss)
+426 http fetch GET 200 https://registry.npmjs.org/@tsparticles/engine/-/engine-3.9.0.tgz 4275ms (cache miss)
+427 info run @tsparticles/engine@3.9.0 install node_modules/@tsparticles/engine node ./scripts/install.js
+428 info run @tsparticles/engine@3.9.0 install { code: 0, signal: null }
+429 silly ADD node_modules/@tsparticles/updater-size
+430 silly ADD node_modules/@tsparticles/updater-out-modes
+431 silly ADD node_modules/@tsparticles/updater-opacity
+432 silly ADD node_modules/@tsparticles/updater-color
+433 silly ADD node_modules/@tsparticles/shape-circle
+434 silly ADD node_modules/@tsparticles/plugin-rgb-color
+435 silly ADD node_modules/@tsparticles/plugin-hsl-color
+436 silly ADD node_modules/@tsparticles/plugin-hex-color
+437 silly ADD node_modules/@tsparticles/move-base
+438 silly ADD node_modules/@tsparticles/updater-stroke-color
+439 silly ADD node_modules/@tsparticles/updater-rotate
+440 silly ADD node_modules/@tsparticles/updater-life
+441 silly ADD node_modules/@tsparticles/shape-star
+442 silly ADD node_modules/@tsparticles/shape-square
+443 silly ADD node_modules/@tsparticles/shape-polygon
+444 silly ADD node_modules/@tsparticles/shape-line
+445 silly ADD node_modules/@tsparticles/shape-image
+446 silly ADD node_modules/@tsparticles/shape-emoji
+447 silly ADD node_modules/@tsparticles/plugin-easing-quad
+448 silly ADD node_modules/@tsparticles/move-parallax
+449 silly ADD node_modules/@tsparticles/interaction-particles-links
+450 silly ADD node_modules/@tsparticles/interaction-particles-collisions
+451 silly ADD node_modules/@tsparticles/interaction-particles-attract
+452 silly ADD node_modules/@tsparticles/interaction-external-slow
+453 silly ADD node_modules/@tsparticles/interaction-external-repulse
+454 silly ADD node_modules/@tsparticles/interaction-external-remove
+455 silly ADD node_modules/@tsparticles/interaction-external-push
+456 silly ADD node_modules/@tsparticles/interaction-external-pause
+457 silly ADD node_modules/@tsparticles/interaction-external-grab
+458 silly ADD node_modules/@tsparticles/interaction-external-connect
+459 silly ADD node_modules/@tsparticles/interaction-external-bubble
+460 silly ADD node_modules/@tsparticles/interaction-external-bounce
+461 silly ADD node_modules/@tsparticles/interaction-external-attract
+462 silly ADD node_modules/@tsparticles/basic
+463 silly ADD node_modules/@tsparticles/slim
+464 silly ADD node_modules/@tsparticles/react
+465 silly ADD node_modules/@tsparticles/engine
+466 silly ADD
+467 silly ADD
+468 silly ADD
+469 silly ADD
+470 silly ADD
+471 silly ADD
+472 silly ADD
+473 silly ADD
+474 silly ADD
+475 silly ADD
+476 silly ADD
+477 silly ADD
+478 silly ADD
+479 silly ADD
+480 silly ADD
+481 silly ADD
+482 silly ADD
+483 silly ADD
+484 silly ADD
+485 silly ADD
+486 silly ADD
+487 silly ADD
+488 silly ADD
+489 silly ADD
+490 silly ADD
+491 silly ADD
+492 silly ADD
+493 silly ADD
+494 silly ADD
+495 silly ADD
+496 silly ADD
+497 silly ADD
+498 silly ADD
+499 silly ADD
+500 silly ADD
+501 silly ADD
+502 silly ADD
+503 silly ADD
+504 silly ADD
+505 silly ADD
+506 silly ADD
+507 silly ADD
+508 silly ADD
+509 silly ADD
+510 silly ADD
+511 silly ADD
+512 silly ADD
+513 silly ADD
+514 silly ADD
+515 silly ADD
+516 silly ADD
+517 silly ADD
+518 verbose cwd C:\Users\ASUS\rouss
+519 verbose os Windows_NT 10.0.26100
+520 verbose node v20.17.0
+521 verbose npm  v11.2.0
+522 verbose exit 0
+523 info ok
