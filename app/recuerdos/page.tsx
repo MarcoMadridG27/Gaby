@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const recuerdos = [
     {
-        mediaType: 'video',
+        mediaType: 'video' as const,
         src: 'video1.mp4',
         poster: 'https://gabymarco.s3.us-east-1.amazonaws.com/primerviaje/IMG-20250731-WA0010.jpg',
         background: 'https://gabymarco.s3.us-east-1.amazonaws.com/tercerviaje/IMG-20250731-WA0047.jpg',
