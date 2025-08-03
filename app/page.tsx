@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import Image from "next/image";
 import { useState, useCallback } from "react";
 import { AuroraBackground } from "@/components/ui/aurora-background";
@@ -46,20 +47,19 @@ export default function Home() {
                             hemos dejado de avanzar juntos. Este espacio guarda momentos que
                             han marcado nuestro recorrido y los que aún están por venir.
                         </p>
-
                         <div className="mt-4 flex gap-4 sm:mt-6">
-                            <a
-                                className="inline-block rounded border border-indigo-600 bg-indigo-600 px-5 py-3 font-medium text-white shadow-sm transition-colors hover:bg-indigo-700"
+                            <Link
                                 href="/galeria"
+                                className="inline-block rounded border border-indigo-600 bg-indigo-600 px-5 py-3 font-medium text-white shadow-sm transition-colors hover:bg-indigo-700"
                             >
                                 Nuestros Fotos
-                            </a>
-                            <a
-                                className="inline-block rounded border border-gray-200 px-5 py-3 font-medium text-gray-700 shadow-sm transition-colors hover:bg-gray-50 hover:text-gray-900 dark:border-gray-700 dark:text-gray-200 dark:hover:bg-gray-800 dark:hover:text-white"
+                            </Link>
+                            <Link
                                 href="#valores"
+                                className="inline-block rounded border border-gray-200 px-5 py-3 font-medium text-gray-700 shadow-sm transition-colors hover:bg-gray-50 hover:text-gray-900 dark:border-gray-700 dark:text-gray-200 dark:hover:bg-gray-800 dark:hover:text-white"
                             >
                                 Lo que valoramos
-                            </a>
+                            </Link>
                         </div>
                     </div>
 
@@ -123,12 +123,12 @@ export default function Home() {
 
 
             {/* Botón flotante para volver arriba */}
-            <a
+            <Link
                 href="#inicio"
                 className="fixed bottom-6 right-6 z-50 rounded-full bg-indigo-600 text-white px-4 py-2 shadow-lg hover:bg-indigo-700 transition md:px-5 md:py-3"
             >
                 ↑
-            </a>
+            </Link>
             {/* Footer personalizado */}
             <div className="w-full mt-10">
                 <Footer
