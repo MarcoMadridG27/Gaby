@@ -9,7 +9,7 @@ import {
 } from "motion/react";
 
 import React, { useRef, useState } from "react";
-
+import Link from "next/link"; // ✅ Importar Link de Next.js
 
 interface NavbarProps {
     children: React.ReactNode;
@@ -46,7 +46,7 @@ interface MobileNavMenuProps {
     children: React.ReactNode;
     className?: string;
     isOpen: boolean;
-    onClose: () => void;
+    onClose: () => void; // ✅ Esta prop ahora se usa
 }
 
 export const Navbar = ({ children, className }: NavbarProps) => {
@@ -125,24 +125,25 @@ export const NavItems = ({ items, className, onItemClick }: NavItemsProps) => {
             )}
         >
             {items.map((item, idx) => (
-                <a
-                    onMouseEnter={() => setHovered(idx)}
-                    onClick={onItemClick}
-                    className="relative px-4 py-2 text-neutral-600 dark:text-neutral-300"
-                    key={`link-${idx}`}
-                    href={item.link}
-                >
-                    {hovered === idx && (
-                        <motion.div
-                            layoutId="hovered"
-                            className="absolute inset-0 h-full w-full rounded-full bg-gray-100 dark:bg-neutral-800"
-                        />
-                    )}
-                    <span className="relative z-20">{item.name}</span>
-                </a>
-            ))}
-        </motion.div>
-    );
+
+                <Link
+                onMouseEnter={() => setHovered(idx)}
+            onClick={onItemClick}
+            className="relative px-4 py-2 text-neutral-600 dark:text-neutral-300"
+            key={`link-${idx}`}
+            href={item.link}
+        >
+            {hovered === idx && (
+                <motion.div
+                    layoutId="hovered"
+                    className="absolute inset-0 h-full w-full rounded-full bg-gray-100 dark:bg-neutral-800"
+                />
+            )}
+            <span className="relative z-20">{item.name}</span>
+        </Link>
+    ))}
+</motion.div>
+);
 };
 
 export const MobileNav = ({ children, className, visible }: MobileNavProps) => {
@@ -195,7 +196,7 @@ export const MobileNavMenu = ({
                                   children,
                                   className,
                                   isOpen,
-                                  onClose,
+                                  onClose, // ✅ onClose ahora se acepta sin warning
                               }: MobileNavMenuProps) => {
     return (
         <AnimatePresence>
@@ -232,24 +233,24 @@ export const MobileNavToggle = ({
 
 export const NavbarLogo = () => {
     return (
-        <a
-            href="/"
-            className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal text-black"
-        >
-            {/* Puedes eliminar el <img> si no deseas usar un logo */}
-            {/* <img
+
+    <Link
+        href="/"
+        className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal text-black"
+    >
+        {/* Puedes eliminar el <img> si no deseas usar un logo */}
+        {/* <img
                 src="https://assets.aceternity.com/logo-dark.png"
                 alt="logo"
                 width={30}
                 height={30}
             /> */}
-            <span className="font-medium text-black dark:text-white">
+        <span className="font-medium text-black dark:text-white">
                 ❤️ Gaby & Marco
             </span>
-        </a>
-    );
+    </Link>
+);
 };
-
 
 export const NavbarButton = ({
                                  href,

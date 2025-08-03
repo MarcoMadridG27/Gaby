@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button"
+import Link from "next/link" // ✅ Importar Link de Next.js
 
 interface FooterProps {
     logo: React.ReactNode
@@ -34,14 +35,15 @@ export function Footer({
         <footer className="pb-6 pt-16 lg:pb-8 lg:pt-24">
             <div className="px-4 lg:px-8">
                 <div className="md:flex md:items-start md:justify-between">
-                    <a
+                    {/* ✅ Reemplazar <a> por <Link> para navegación interna */}
+                    <Link
                         href="/"
                         className="flex items-center gap-x-2"
                         aria-label={brandName}
                     >
                         {logo}
                         <span className="font-bold text-xl">{brandName}</span>
-                    </a>
+                    </Link>
                     <ul className="flex list-none mt-6 md:mt-0 space-x-3">
                         {socialLinks.map((link, i) => (
                             <li key={i}>
@@ -51,6 +53,7 @@ export function Footer({
                                     className="h-10 w-10 rounded-full"
                                     asChild
                                 >
+                                    {/* ✅ Enlaces externos mantienen <a> con target="_blank" */}
                                     <a href={link.href} target="_blank" aria-label={link.label}>
                                         {link.icon}
                                     </a>
@@ -64,12 +67,24 @@ export function Footer({
                         <ul className="list-none flex flex-wrap -my-1 -mx-2 lg:justify-end">
                             {mainLinks.map((link, i) => (
                                 <li key={i} className="my-1 mx-2 shrink-0">
-                                    <a
-                                        href={link.href}
-                                        className="text-sm text-primary underline-offset-4 hover:underline"
-                                    >
-                                        {link.label}
-                                    </a>
+                                    {/* ✅ Usar Link para navegación interna o <a> para externa */}
+                                    {link.href.startsWith('/') || link.href.startsWith('#') ? (
+                                        <Link
+                                            href={link.href}
+                                            className="text-sm text-primary underline-offset-4 hover:underline"
+                                        >
+                                            {link.label}
+                                        </Link>
+                                    ) : (
+                                        <a
+                                            href={link.href}
+                                            className="text-sm text-primary underline-offset-4 hover:underline"
+                                            target={link.href.startsWith('http') ? "_blank" : undefined}
+                                            rel={link.href.startsWith('http') ? "noopener noreferrer" : undefined}
+                                        >
+                                            {link.label}
+                                        </a>
+                                    )}
                                 </li>
                             ))}
                         </ul>
@@ -78,12 +93,24 @@ export function Footer({
                         <ul className="list-none flex flex-wrap -my-1 -mx-3 lg:justify-end">
                             {legalLinks.map((link, i) => (
                                 <li key={i} className="my-1 mx-3 shrink-0">
-                                    <a
-                                        href={link.href}
-                                        className="text-sm text-muted-foreground underline-offset-4 hover:underline"
-                                    >
-                                        {link.label}
-                                    </a>
+                                    {/* ✅ Usar Link para navegación interna o <a> para externa */}
+                                    {link.href.startsWith('/') || link.href.startsWith('#') ? (
+                                        <Link
+                                            href={link.href}
+                                            className="text-sm text-muted-foreground underline-offset-4 hover:underline"
+                                        >
+                                            {link.label}
+                                        </Link>
+                                    ) : (
+                                        <a
+                                            href={link.href}
+                                            className="text-sm text-muted-foreground underline-offset-4 hover:underline"
+                                            target={link.href.startsWith('http') ? "_blank" : undefined}
+                                            rel={link.href.startsWith('http') ? "noopener noreferrer" : undefined}
+                                        >
+                                            {link.label}
+                                        </a>
+                                    )}
                                 </li>
                             ))}
                         </ul>

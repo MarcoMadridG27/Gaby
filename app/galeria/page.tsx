@@ -9,6 +9,8 @@ import { listarFotos } from "@/api/listarFotos";
 import CarruselImagenes from "@/components/CarruselImagenes";
 import { HeroParallaxGaleria } from "@/components/HeroParallax";
 import { SeparadorViaje } from "@/components/SeparadorViaje";
+import Link from "next/link"; // ✅ Importar Link de Next.js
+import Image from "next/image"; // ✅ Importar Image de Next.js
 
 type Viaje = {
     nombre: string;
@@ -53,7 +55,7 @@ export default function GaleriaPage() {
             for (const viaje of viajes) {
                 try {
                     const fotos = await listarFotos(viaje.carpeta);
-                    fotosData[viaje.carpeta] = fotos.map((f) => f.url); // ✅ Vuelve a usar .url
+                    fotosData[viaje.carpeta] = fotos.map((f) => f.url);
                 } catch (error) {
                     console.error("Error al cargar fotos de", viaje.carpeta, error);
                     fotosData[viaje.carpeta] = [];
@@ -63,7 +65,7 @@ export default function GaleriaPage() {
         }
 
         cargarFotos();
-    }, []);
+    }, [viajes]); // ✅ Agregar dependencia 'viajes'
 
     const primerViaje = viajes[0];
     const viajesRestantes = viajes.slice(1);
@@ -86,7 +88,7 @@ export default function GaleriaPage() {
 
 
                 {/* Resto de viajes */}
-                {viajesRestantes.map((viaje, index) => {
+                {viajesRestantes.map((viaje) => { // ✅ Remover 'index' no usado
                     const fotos = fotosPorViaje[viaje.carpeta] || [];
 
                     return (
@@ -102,9 +104,12 @@ export default function GaleriaPage() {
                                                     key={i}
                                                     className={`absolute top-[${10 + i * 8}%] left-[${20 + i * 5}%] rotate-[${i % 2 === 0 ? "-" : ""}${5 + (i % 10)}deg]`}
                                                 >
-                                                    <img
+                                                    {/* ✅ Reemplazar <img> por <Image> */}
+                                                    <Image
                                                         src={url}
                                                         alt={`Tercer viaje ${i + 1}`}
+                                                        width={320}
+                                                        height={320}
                                                         className="pointer-events-none relative z-10 h-80 w-80 object-cover"
                                                     />
                                                     <h3 className="mt-4 text-center text-xl font-bold text-neutral-700 dark:text-neutral-300">
@@ -125,12 +130,13 @@ export default function GaleriaPage() {
                 })}
 
                 <div className="mt-12">
-                    <a
+                    {/* ✅ Reemplazar <a> por <Link> */}
+                    <Link
                         href="/"
                         className="inline-block rounded border border-indigo-600 bg-indigo-600 px-6 py-3 font-medium text-white shadow-sm transition-colors hover:bg-indigo-700"
                     >
                         ← Volver al inicio
-                    </a>
+                    </Link>
                 </div>
             </main>
         </AuroraBackground>

@@ -12,9 +12,8 @@ import {
     NavbarButton
 } from "@/components/ui/resizable-navbar";
 
- // Asegúrate de importar correctamente el botón
-
 import { useEffect, useState } from "react";
+import Link from "next/link"; // ✅ Importar Link de Next.js
 
 const navLinks = [
     { name: "Como empezó?", link: "/chat" },
@@ -48,12 +47,13 @@ export default function Header() {
             {/* Mobile */}
             <MobileNav visible>
                 <MobileNavHeader>
-                    <a
+                    {/* ✅ Reemplazar <a> por <Link> */}
+                    <Link
                         className="text-lg font-semibold text-pink-600 dark:text-pink-400"
                         href="/"
                     >
                         ❤️ Gaby & Marco
-                    </a>
+                    </Link>
 
                     <MobileNavToggle
                         isOpen={isOpen}
@@ -62,27 +62,29 @@ export default function Header() {
                 </MobileNavHeader>
 
                 <MobileNavMenu isOpen={isOpen} onClose={() => setIsOpen(false)}>
-                    <a
+                    {/* ✅ Reemplazar <a> por <Link> */}
+                    <Link
                         href="/"
                         onClick={() => setIsOpen(false)}
                         className="block w-full rounded px-4 py-2 text-left text-pink-600 dark:text-pink-400 font-semibold hover:bg-pink-100 dark:hover:bg-zinc-800"
                     >
                         ❤️ Gaby & Marco
-                    </a>
-                    {[...navLinks, { name: "Galería", link: "#galeria" }, { name: "Cartas", link: "#cartas" }].map(
+                    </Link>
+                    {[...navLinks, { name: "Galería", link: "/galeria" }, { name: "Cartas", link: "/cartas" }].map(
                         (item, idx) => (
-                            <a
-                                key={`mobile-${idx}`}
-                                href={item.link}
-                                onClick={() => setIsOpen(false)}
-                                className="block w-full rounded px-4 py-2 text-left text-gray-700 dark:text-white hover:bg-pink-100 dark:hover:bg-zinc-800"
-                            >
-                                {item.name}
-                            </a>
-                        )
-                    )}
-                </MobileNavMenu>
-            </MobileNav>
-        </Navbar>
-    );
+
+                        <Link
+                        key={`mobile-${idx}`}
+                               href={item.link}
+                               onClick={() => setIsOpen(false)}
+                               className="block w-full rounded px-4 py-2 text-left text-gray-700 dark:text-white hover:bg-pink-100 dark:hover:bg-zinc-800"
+                >
+                    {item.name}
+                </Link>
+                )
+                )}
+            </MobileNavMenu>
+        </MobileNav>
+</Navbar>
+);
 }
