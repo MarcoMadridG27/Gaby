@@ -18,7 +18,7 @@ import Link from "next/link"; // ✅ Importar Link de Next.js
 const navLinks = [
     { name: "Como empezó?", link: "/chat" },
     { name: "Recuerdos", link: "/recuerdos" },
-    { name: "Promesa", link: "#valores" },
+    { name: "Promesa", link: "/promesa" },
 ];
 
 export default function Header() {

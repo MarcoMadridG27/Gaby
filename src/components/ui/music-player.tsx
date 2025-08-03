@@ -37,11 +37,24 @@ export function MusicPlayer({
     useEffect(() => {
         if (audioRef.current) {
             audioRef.current.volume = volume;
+
+            // Intentar reproducir automáticamente al montar
+            audioRef.current.play()
+                .then(() => setIsPlaying(true))
+                .catch((err) => {
+                    console.warn("Autoplay bloqueado por el navegador:", err);
+                    setIsPlaying(false);
+                });
+        }
+    }, []);
+
+    useEffect(() => {
+        if (audioRef.current) {
+            audioRef.current.volume = volume;
         }
     }, [volume]);
 
     return (
-
         <div className="fixed bottom-6 right-6 bg-white/90 dark:bg-zinc-900/90 backdrop-blur-md px-5 py-4 rounded-xl shadow-2xl z-50 flex items-center gap-4 w-[300px]">
             <audio ref={audioRef} src={src} loop />
             <button
