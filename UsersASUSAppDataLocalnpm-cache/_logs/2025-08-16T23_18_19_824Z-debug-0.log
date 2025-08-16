@@ -7,9 +7,9 @@
 6 silly config load:file:C:\Users\ASUS\AppData\Roaming\npm\etc\npmrc
 7 verbose title npm config list
 8 verbose argv "config" "list" "--json"
-9 verbose logfile logs-max:10 dir:C:\Users\ASUS\rouss\UsersASUSAppDataLocalnpm-cache\_logs\2025-08-03T19_04_47_457Z-
-10 verbose logfile C:\Users\ASUS\rouss\UsersASUSAppDataLocalnpm-cache\_logs\2025-08-03T19_04_47_457Z-debug-0.log
-11 silly logfile start cleaning logs, removing 8 files
+9 verbose logfile logs-max:10 dir:C:\Users\ASUS\rouss\UsersASUSAppDataLocalnpm-cache\_logs\2025-08-16T23_18_19_824Z-
+10 verbose logfile C:\Users\ASUS\rouss\UsersASUSAppDataLocalnpm-cache\_logs\2025-08-16T23_18_19_824Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
 12 verbose cwd C:\Users\ASUS\rouss
 13 verbose os Windows_NT 10.0.26100
 14 verbose node v20.17.0
